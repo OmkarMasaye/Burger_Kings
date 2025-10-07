@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Jumbo King</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>🍔 JUMBO KING</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="outlets.html">Outlets</a></li>
+                <li><a href="team.html">Our Team</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you</p>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    
+                    <div class="info-block">
+                        <h3>📍 Address</h3>
+                        <p>Shop No. 15, Ground Floor<br>
+                        Phoenix Market City<br>
+                        Kurla West, Mumbai - 400070<br>
+                        Maharashtra, India</p>
+                    </div>
+
+                    <div class="info-block">
+                        <h3>📞 Phone</h3>
+                        <p>Main: +91 22 1234 5678<br>
+                        Orders: +91 22 8765 4321<br>
+                        Franchise: +91 22 9876 5432</p>
+                    </div>
+
+                    <div class="info-block">
+                        <h3>📧 Email</h3>
+                        <p>General: info@jumboking.in<br>
+                        Franchise: franchise@jumboking.in<br>
+                        Feedback: feedback@jumboking.in</p>
+                    </div>
+
+                    <div class="info-block">
+                        <h3>🕐 Opening Hours</h3>
+                        <p>Monday - Sunday<br>
+                        10:00 AM - 11:00 PM<br>
+                        (All days of the week)</p>
+                    </div>
+
+                    <div class="social-links">
+                        <h3>Follow Us</h3>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon">📘 Facebook</a>
+                            <a href="#" class="social-icon">📷 Instagram</a>
+                            <a href="#" class="social-icon">🐦 Twitter</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <h2>Send Us a Message</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="inquiry">General Inquiry</option>
+                                <option value="franchise">Franchise Inquiry</option>
+                                <option value="complaint">Complaint</option>
+                                <option value="suggestion">Suggestion</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                    <div id="formMessage" class="form-message"></div>
+                </div>
+            </div>
+
+            <div class="map-section">
+                <h2>Find Us Here</h2>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.0427964971496!2d72.87765931490076!3d19.08768098708064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8c8c8c8c8c8%3A0x8c8c8c8c8c8c8c8c!2sPhoenix%20Market%20City%2C%20Mumbai!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin" 
+                        width="100%" 
+                        height="400" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="franchise-section">
+                <h2>Interested in Franchise?</h2>
+                <p>Join the Jumbo King family and bring India's favorite burgers to your city! We offer comprehensive support, training, and a proven business model.</p>
+                <p>For franchise inquiries, please email us at <strong>franchise@jumboking.in</strong> or call <strong>+91 22 9876 5432</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Jumbo King. All rights reserved.</p>
+            <p>India's King of Burgers</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
