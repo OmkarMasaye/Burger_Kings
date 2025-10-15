@@ -35,6 +35,8 @@ Preferred communication style: Simple, everyday language.
   - Add-to-cart button feedback (visual confirmation without actual cart)
   - Mobile menu toggle with animated hamburger icon
   - Form interactions (contact form)
+  - User authentication (login/register using localStorage)
+  - Session management and user state persistence
 
 ### Styling Architecture
 
