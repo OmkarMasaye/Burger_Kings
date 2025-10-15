@@ -894,3 +894,35 @@ footer p {
         padding: 1.5rem;
     }
 }
+
+
+.outlet-gallery .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Ensures four equal columns */
+    gap: 20px; /* Space between items */
+    margin: 20px auto;
+}
+
+.outlet-gallery .gallery-grid .gallery-item {
+    text-align: center; /* Centers the text and image horizontally */
+    min-height: 250px; /* Ensures uniformity in height */
+    overflow: hidden; /* Hides any overflow */
+    padding: 5px 0;
+}
+
+.outlet-gallery .gallery-grid .gallery-item img {
+    max-width: 100%; /* Ensures image fits within the item width */
+    display: block; /* Removes any extra space below the image */
+    height: 250px; /* Fixed height for all images */
+    object-fit: cover; /* Crops the image to fit the height and width */
+    margin: 0 auto; /* Centers the image horizontally */
+}
+
+.outlet-gallery .gallery-grid .gallery-item p {
+    margin: 10px 0 0 0; /* Adds some space above the text, none below */
+    font-size: 1rem; /* Adjust font size if needed */
+    color: #333; /* Matches the body text color */
+    text-align: center; /* Ensures the text is centered */
+    width: 100%; /* Full width of the grid item */
+}
+
